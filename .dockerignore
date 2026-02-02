@@ -1,0 +1,44 @@
+# Git
+.git
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv/
+.env/
+env/
+venv/
+.uv-cache
+
+# Node
+frontend/node_modules
+
+# IDE
+.idea
+.vscode
+frontend/.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime output
+logs/
+data/
+temp/
+WareHouse/
+
+# Docker (avoid recursive copy)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation / assets not needed at runtime
+other/
+docs/
+*.md
+LICENSE

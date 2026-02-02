@@ -1,18 +1,44 @@
+# ─── Python ──────────────────────────────────────────────────────
 *.pyc
-.DS_Store
-.idea
-.vscode
+*.pyo
 __pycache__/
-.env/
+*.egg-info/
+dist/
+build/
+
+# ─── Virtual environments ───────────────────────────────────────
 .venv/
-env/
 venv/
-.idea
-.venv
+env/
 .uv-cache
-logs
-node_modules
-frontend/.vscode
-WareHouse/
+
+# ─── Environment / Secrets ──────────────────────────────────────
+# IMPORTANT: .env contains API keys — never commit it
+.env
+*.env
+!.env.example
+
+# ─── IDE ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+frontend/.vscode/
+*.swp
+*.swo
+
+# ─── OS ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Node ────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+
+# ─── Runtime output ─────────────────────────────────────────────
+logs/
 data/
 temp/
+WareHouse/
+
+# ─── Docker ─────────────────────────────────────────────────────
+docker-compose.override.yml
+.env
