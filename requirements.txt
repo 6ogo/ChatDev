@@ -17,4 +17,5 @@ ddgs
 beautifulsoup4
 matplotlib
 networkx
+pandas
 cartopy

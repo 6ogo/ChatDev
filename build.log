@@ -1,0 +1,256 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 520B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 2.74kB done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 ...
+
+#4 [auth] library/python:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#5 [internal] load metadata for ghcr.io/astral-sh/uv:latest
+#5 DONE 0.8s
+
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 3.7s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 490B done
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 DONE 0.0s
+
+#8 [backend  1/18] FROM docker.io/library/python:3.12-slim@sha256:0637d939a31ac95908002366d1bb819607be506a2656b55a5f7aa84f7a4bfefb
+#8 resolve docker.io/library/python:3.12-slim@sha256:0637d939a31ac95908002366d1bb819607be506a2656b55a5f7aa84f7a4bfefb 0.1s done
+#8 DONE 0.1s
+
+#9 FROM ghcr.io/astral-sh/uv:latest@sha256:59240a65d6b57e6c507429b45f01b8f2c7c0bbeee0fb697c41a39c6a8e3a4cfb
+#9 resolve ghcr.io/astral-sh/uv:latest@sha256:59240a65d6b57e6c507429b45f01b8f2c7c0bbeee0fb697c41a39c6a8e3a4cfb
+#9 resolve ghcr.io/astral-sh/uv:latest@sha256:59240a65d6b57e6c507429b45f01b8f2c7c0bbeee0fb697c41a39c6a8e3a4cfb 0.1s done
+#9 CACHED
+
+#7 [internal] load build context
+#7 transferring context: 27.84kB 0.0s done
+#7 DONE 0.1s
+
+#8 [backend  1/18] FROM docker.io/library/python:3.12-slim@sha256:0637d939a31ac95908002366d1bb819607be506a2656b55a5f7aa84f7a4bfefb
+#8 sha256:3e7f1756106a4b36b54ca4328f7474a3b2e2aa2b38a27bea12f4bed31c860fd5 0B / 251B 0.2s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 0B / 12.11MB 0.2s
+#8 sha256:26b9936301c272ab42e8359e1866f80ea76dac0f1f97a143ea436b7d3ad85e5c 0B / 1.29MB 0.2s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 0B / 29.78MB 0.2s
+#8 sha256:3e7f1756106a4b36b54ca4328f7474a3b2e2aa2b38a27bea12f4bed31c860fd5 251B / 251B 0.4s done
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 1.05MB / 12.11MB 0.9s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 4.19MB / 12.11MB 1.1s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 7.34MB / 12.11MB 1.2s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 9.44MB / 12.11MB 1.4s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 11.53MB / 12.11MB 1.5s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 2.10MB / 29.78MB 1.5s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 4.19MB / 29.78MB 1.7s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 7.34MB / 29.78MB 1.8s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 9.44MB / 29.78MB 2.0s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 12.58MB / 29.78MB 2.1s
+#8 sha256:26b9936301c272ab42e8359e1866f80ea76dac0f1f97a143ea436b7d3ad85e5c 1.29MB / 1.29MB 2.4s done
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 14.68MB / 29.78MB 2.3s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 16.78MB / 29.78MB 2.4s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 19.92MB / 29.78MB 2.6s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 22.02MB / 29.78MB 2.7s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 25.17MB / 29.78MB 2.8s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 28.31MB / 29.78MB 3.0s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 11.53MB / 12.11MB 6.6s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 28.31MB / 29.78MB 8.1s
+#8 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 29.78MB / 29.78MB 10.6s done
+#8 extracting sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0
+#8 extracting sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 0.6s done
+#8 extracting sha256:26b9936301c272ab42e8359e1866f80ea76dac0f1f97a143ea436b7d3ad85e5c
+#8 extracting sha256:26b9936301c272ab42e8359e1866f80ea76dac0f1f97a143ea436b7d3ad85e5c 0.1s done
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 11.53MB / 12.11MB 11.7s
+#8 sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 12.11MB / 12.11MB 14.0s done
+#8 extracting sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252
+#8 extracting sha256:64bd194df9b0201f0b50bdcb063e91ab7593bd61976371ef2c90b8d17933e252 0.3s done
+#8 DONE 14.5s
+
+#8 [backend  1/18] FROM docker.io/library/python:3.12-slim@sha256:0637d939a31ac95908002366d1bb819607be506a2656b55a5f7aa84f7a4bfefb
+#8 extracting sha256:3e7f1756106a4b36b54ca4328f7474a3b2e2aa2b38a27bea12f4bed31c860fd5 0.0s done
+#8 DONE 14.5s
+
+#10 [backend  2/18] RUN apt-get update && apt-get install -y --no-install-recommends     build-essential     libgeos-dev     libproj-dev     libsdl2-dev     libsdl2-image-dev     libsdl2-mixer-dev     libsdl2-ttf-dev     curl     && rm -rf /var/lib/apt/lists/*
+#10 0.447 Hit:1 http://deb.debian.org/debian trixie InRelease
+#10 0.482 Hit:2 http://deb.debian.org/debian trixie-updates InRelease
+#10 0.520 Hit:3 http://deb.debian.org/debian-security trixie-security InRelease
+#10 1.651 Get:4 http://deb.debian.org/debian trixie/main amd64 Packages [9670 kB]
+#10 2.217 Get:5 http://deb.debian.org/debian trixie-updates/main amd64 Packages [5412 B]
+#10 2.481 Get:6 http://deb.debian.org/debian-security trixie-security/main amd64 Packages [98.7 kB]
+#10 2.649 Fetched 9774 kB in 2s (4199 kB/s)
+#10 2.649 Reading package lists...
+#10 3.015 Reading package lists...
+#10 3.364 Building dependency tree...
+#10 3.456 Reading state information...
+#10 3.572 The following additional packages will be installed:
+#10 3.572   binutils binutils-common binutils-x86-64-linux-gnu bzip2 comerr-dev cpp
+#10 3.572   cpp-14 cpp-14-x86-64-linux-gnu cpp-x86-64-linux-gnu dpkg-dev
+#10 3.572   fontconfig-config fonts-dejavu-core fonts-dejavu-mono g++ g++-14
+#10 3.572   g++-14-x86-64-linux-gnu g++-x86-64-linux-gnu gcc gcc-14
+#10 3.572   gcc-14-x86-64-linux-gnu gcc-x86-64-linux-gnu gir1.2-freedesktop
+#10 3.572   gir1.2-freedesktop-dev gir1.2-glib-2.0 gir1.2-glib-2.0-dev
+#10 3.572   gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 girepository-tools icu-devtools
+#10 3.572   krb5-multidev libasan8 libasound2-data libasound2-dev libasound2t64
+#10 3.572   libasyncns0 libatomic1 libbinutils libblkid-dev libbrotli-dev libbrotli1
+#10 3.572   libbz2-dev libc-dev-bin libc6-dev libcairo-gobject2 libcairo2 libcap-dev
+#10 3.572   libcc1-0 libcom-err2 libcrypt-dev libctf-nobfd0 libctf0 libcurl3t64-gnutls
+#10 3.572   libcurl4-gnutls-dev libcurl4t64 libdbus-1-3 libdbus-1-dev libdecor-0-0
+#10 3.572   libdecor-0-dev libdeflate-dev libdeflate0 libdpkg-perl libdrm-amdgpu1
+#10 3.572   libdrm-common libdrm-dev libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+#10 3.572   libdrm2 libedit2 libegl-dev libegl-mesa0 libegl1 libelf1t64
+#10 3.572   libevent-2.1-7t64 libexpat1 libffi-dev libflac-dev libflac14 libfontconfig1
+#10 3.572   libfreetype-dev libfreetype6 libgbm-dev libgbm1 libgcc-14-dev
+#10 3.572   libgdbm-compat4t64 libgeos-c1t64 libgeos3.13.1 libgio-2.0-dev
+#10 3.572   libgio-2.0-dev-bin libgirepository-2.0-0 libgl-dev libgl1 libgl1-mesa-dri
+#10 3.572   libgles-dev libgles1 libgles2 libglib2.0-0t64 libglib2.0-bin libglib2.0-data
+#10 3.572   libglib2.0-dev libglib2.0-dev-bin libglvnd0 libglx-dev libglx-mesa0 libglx0
+#10 3.572   libgmp-dev libgmpxx4ldbl libgnutls-dane0t64 libgnutls-openssl27t64
+#10 3.572   libgnutls28-dev libgnutls30t64 libgomp1 libgprofng0 libgraphite2-3
+#10 3.572   libgraphite2-dev libgssapi-krb5-2 libgssrpc4t64 libharfbuzz-cairo0
+#10 3.572   libharfbuzz-dev libharfbuzz-gobject0 libharfbuzz-icu0 libharfbuzz-subset0
+#10 3.572   libharfbuzz0b libhwasan0 libibus-1.0-5 libibus-1.0-dev libice-dev libice6
+#10 3.572   libicu-dev libicu76 libidn2-0 libidn2-dev libisl23 libitm1 libjansson4
+#10 3.572   libjbig-dev libjbig0 libjpeg-dev libjpeg62-turbo libjpeg62-turbo-dev
+#10 3.572   libk5crypto3 libkadm5clnt-mit12 libkadm5srv-mit12 libkdb5-10t64 libkeyutils1
+#10 3.572   libkrb5-3 libkrb5-dev libkrb5support0 libldap-dev libldap2 liblerc-dev
+#10 3.572   liblerc4 libllvm19 liblsan0 liblzma-dev libmount-dev libmp3lame0 libmpc3
+#10 3.572   libmpfr6 libmpg123-0t64 libmpg123-dev libnghttp2-14 libnghttp2-dev
+#10 3.572   libnghttp3-9 libnghttp3-dev libngtcp2-16 libngtcp2-crypto-gnutls-dev
+#10 3.572   libngtcp2-crypto-gnutls8 libngtcp2-dev libogg-dev libogg0 libopus-dev
+#10 3.572   libopus0 libopusfile-dev libopusfile0 libout123-0t64 libp11-kit-dev
+#10 3.572   libp11-kit0 libpciaccess-dev libpciaccess0 libpcre2-16-0 libpcre2-32-0
+#10 3.572   libpcre2-dev libpcre2-posix3 libperl5.40 libpixman-1-0 libpkgconf3
+#10 3.572   libpng-dev libpng16-16t64 libproj25 libpsl-dev libpsl5t64 libpulse-dev
+#10 3.572   libpulse-mainloop-glib0 libpulse0 libpython3-stdlib libpython3.13-minimal
+#10 3.573   libpython3.13-stdlib libquadmath0 librtmp-dev librtmp1 libsamplerate0
+#10 3.573   libsamplerate0-dev libsasl2-2 libsasl2-modules-db libsdl2-2.0-0
+#10 3.573   libsdl2-image-2.0-0 libsdl2-mixer-2.0-0 libsdl2-ttf-2.0-0 libselinux1-dev
+#10 3.573   libsensors-config libsensors5 libsepol-dev libsframe1 libsharpyuv-dev
+#10 3.573   libsharpyuv0 libsm-dev libsm6 libsndfile1 libsndio-dev libsndio7.0
+#10 3.573   libsqlite3-dev libssh2-1-dev libssh2-1t64 libssl-dev libstdc++-14-dev
+#10 3.573   libsyn123-0t64 libsysprof-capture-4-dev libsystemd-dev libtasn1-6
+#10 3.573   libtasn1-6-dev libtiff-dev libtiff6 libtiffxx6 libtsan2 libubsan1
+#10 3.573   libudev-dev libunbound8 libunistring5 libvorbis-dev libvorbis0a
+#10 3.573   libvorbisenc2 libvorbisfile3 libvulkan1 libwayland-bin libwayland-client0
+#10 3.573   libwayland-cursor0 libwayland-dev libwayland-egl1 libwayland-server0
+#10 3.573   libwebp-dev libwebp7 libwebpdecoder3 libwebpdemux2 libwebpmux3 libx11-6
+#10 3.573   libx11-data libx11-dev libx11-xcb1 libxau-dev libxau6 libxcb-dri3-0
+#10 3.573   libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-render0 libxcb-shm0
+#10 3.573   libxcb-sync1 libxcb-xfixes0 libxcb1 libxcb1-dev libxcursor-dev libxcursor1
+#10 3.573   libxdmcp-dev libxdmcp6 libxext-dev libxext6 libxfixes-dev libxfixes3
+#10 3.573   libxi-dev libxi6 libxinerama-dev libxinerama1 libxkbcommon-dev libxkbcommon0
+#10 3.573   libxml2 libxmp-dev libxmp4 libxrandr-dev libxrandr2 libxrender-dev
+#10 3.573   libxrender1 libxshmfence1 libxss-dev libxss1 libxt-dev libxt6t64 libxv-dev
+#10 3.573   libxv1 libxxf86vm-dev libxxf86vm1 libz3-4 libzstd-dev linux-libc-dev make
+#10 3.573   media-types mesa-libgallium native-architecture nettle-dev patch perl
+#10 3.573   perl-modules-5.40 pkgconf pkgconf-bin proj-data python3 python3-minimal
+#10 3.573   python3-packaging python3.13 python3.13-minimal rpcsvc-proto sgml-base
+#10 3.573   uuid-dev x11-common x11proto-dev xkb-data xml-core xorg-sgml-doctools
+#10 3.573   xtrans-dev xz-utils zlib1g-dev
+#10 3.574 Suggested packages:
+#10 3.574   binutils-doc gprofng-gui binutils-gold bzip2-doc doc-base cpp-doc
+#10 3.574   gcc-14-locales cpp-14-doc debian-keyring debian-tag2upload-keyring
+#10 3.574   g++-multilib g++-14-multilib gcc-14-doc gcc-multilib manpages-dev autoconf
+#10 3.574   automake libtool flex bison gdb gcc-doc gcc-14-multilib gdb-x86-64-linux-gnu
+#10 3.574   krb5-doc alsa-utils libasound2-doc libasound2-plugins libc-devtools
+#10 3.574   glibc-doc libcurl4-doc libidn-dev sq | sqop | rsop | gosop | pgpainless-cli
+#10 3.574   | gpg-sq | gnupg sensible-utils git bzr freetype2-doc libgdal-doc
+#10 3.574   libglib2.0-doc libgdk-pixbuf2.0-bin libxml2-utils low-memory-monitor gmp-doc
+#10 3.574   libgmp10-doc libmpfr-dev dns-root-data gnutls-bin gnutls-doc
+#10 3.574   libgraphite2-utils krb5-user libice-doc icu-doc liblzma-doc libnghttp2-doc
+#10 3.574   opus-tools p11-kit-doc pciutils proj-bin pulseaudio xdg-utils lm-sensors
+#10 3.574   libsm-doc sndiod sqlite3-doc libssl-doc libstdc++-14-doc libwayland-doc
+#10 3.574   libx11-doc libxcb-doc libxext-doc libxt-doc make-doc ed diffutils-doc
+#10 3.574   perl-doc libterm-readline-gnu-perl | libterm-readline-perl-perl
+#10 3.574   libtap-harness-archive-perl python3-doc python3-tk python3-venv
+#10 3.574   python3.13-venv python3.13-doc binfmt-support sgml-base-doc debhelper
+#10 3.574 Recommended packages:
+#10 3.574   bash-completion fakeroot sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq
+#10 3.574   | gnupg libalgorithm-merge-perl alsa-ucm-conf alsa-topology-conf bzip2-doc
+#10 3.574   manpages manpages-dev dbus default-libdecor-0-plugin-1 | libdecor-0-plugin-1
+#10 3.574   libfile-fcntllock-perl liblocale-gettext-perl shared-mime-info xdg-user-dirs
+#10 3.574   krb5-locales libldap-common libpng-tools publicsuffix libsasl2-modules
+#10 3.574   libfluidsynth3 timgm6mb-soundfont | sf3-soundfont-gm libtasn1-doc
+#10 3.574   mesa-vulkan-drivers | vulkan-icd
+#10 4.773 The following NEW packages will be installed:
+#10 4.773   binutils binutils-common binutils-x86-64-linux-gnu build-essential bzip2
+#10 4.773   comerr-dev cpp cpp-14 cpp-14-x86-64-linux-gnu cpp-x86-64-linux-gnu curl
+#10 4.773   dpkg-dev fontconfig-config fonts-dejavu-core fonts-dejavu-mono g++ g++-14
+#10 4.773   g++-14-x86-64-linux-gnu g++-x86-64-linux-gnu gcc gcc-14
+#10 4.773   gcc-14-x86-64-linux-gnu gcc-x86-64-linux-gnu gir1.2-freedesktop
+#10 4.773   gir1.2-freedesktop-dev gir1.2-glib-2.0 gir1.2-glib-2.0-dev
+#10 4.773   gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 girepository-tools icu-devtools
+#10 4.773   krb5-multidev libasan8 libasound2-data libasound2-dev libasound2t64
+#10 4.773   libasyncns0 libatomic1 libbinutils libblkid-dev libbrotli-dev libbrotli1
+#10 4.773   libbz2-dev libc-dev-bin libc6-dev libcairo-gobject2 libcairo2 libcap-dev
+#10 4.773   libcc1-0 libcom-err2 libcrypt-dev libctf-nobfd0 libctf0 libcurl3t64-gnutls
+#10 4.773   libcurl4-gnutls-dev libcurl4t64 libdbus-1-3 libdbus-1-dev libdecor-0-0
+#10 4.773   libdecor-0-dev libdeflate-dev libdeflate0 libdpkg-perl libdrm-amdgpu1
+#10 4.773   libdrm-common libdrm-dev libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
+#10 4.773   libdrm2 libedit2 libegl-dev libegl-mesa0 libegl1 libelf1t64
+#10 4.773   libevent-2.1-7t64 libexpat1 libffi-dev libflac-dev libflac14 libfontconfig1
+#10 4.773   libfreetype-dev libfreetype6 libgbm-dev libgbm1 libgcc-14-dev
+#10 4.773   libgdbm-compat4t64 libgeos-c1t64 libgeos-dev libgeos3.13.1 libgio-2.0-dev
+#10 4.773   libgio-2.0-dev-bin libgirepository-2.0-0 libgl-dev libgl1 libgl1-mesa-dri
+#10 4.773   libgles-dev libgles1 libgles2 libglib2.0-0t64 libglib2.0-bin libglib2.0-data
+#10 4.773   libglib2.0-dev libglib2.0-dev-bin libglvnd0 libglx-dev libglx-mesa0 libglx0
+#10 4.773   libgmp-dev libgmpxx4ldbl libgnutls-dane0t64 libgnutls-openssl27t64
+#10 4.773   libgnutls28-dev libgnutls30t64 libgomp1 libgprofng0 libgraphite2-3
+#10 4.773   libgraphite2-dev libgssapi-krb5-2 libgssrpc4t64 libharfbuzz-cairo0
+#10 4.773   libharfbuzz-dev libharfbuzz-gobject0 libharfbuzz-icu0 libharfbuzz-subset0
+#10 4.773   libharfbuzz0b libhwasan0 libibus-1.0-5 libibus-1.0-dev libice-dev libice6
+#10 4.773   libicu-dev libicu76 libidn2-0 libidn2-dev libisl23 libitm1 libjansson4
+#10 4.773   libjbig-dev libjbig0 libjpeg-dev libjpeg62-turbo libjpeg62-turbo-dev
+#10 4.773   libk5crypto3 libkadm5clnt-mit12 libkadm5srv-mit12 libkdb5-10t64 libkeyutils1
+#10 4.773   libkrb5-3 libkrb5-dev libkrb5support0 libldap-dev libldap2 liblerc-dev
+#10 4.773   liblerc4 libllvm19 liblsan0 liblzma-dev libmount-dev libmp3lame0 libmpc3
+#10 4.773   libmpfr6 libmpg123-0t64 libmpg123-dev libnghttp2-14 libnghttp2-dev
+#10 4.773   libnghttp3-9 libnghttp3-dev libngtcp2-16 libngtcp2-crypto-gnutls-dev
+#10 4.773   libngtcp2-crypto-gnutls8 libngtcp2-dev libogg-dev libogg0 libopus-dev
+#10 4.773   libopus0 libopusfile-dev libopusfile0 libout123-0t64 libp11-kit-dev
+#10 4.773   libp11-kit0 libpciaccess-dev libpciaccess0 libpcre2-16-0 libpcre2-32-0
+#10 4.773   libpcre2-dev libpcre2-posix3 libperl5.40 libpixman-1-0 libpkgconf3
+#10 4.773   libpng-dev libpng16-16t64 libproj-dev libproj25 libpsl-dev libpsl5t64
+#10 4.773   libpulse-dev libpulse-mainloop-glib0 libpulse0 libpython3-stdlib
+#10 4.773   libpython3.13-minimal libpython3.13-stdlib libquadmath0 librtmp-dev librtmp1
+#10 4.773   libsamplerate0 libsamplerate0-dev libsasl2-2 libsasl2-modules-db
+#10 4.773   libsdl2-2.0-0 libsdl2-dev libsdl2-image-2.0-0 libsdl2-image-dev
+#10 4.773   libsdl2-mixer-2.0-0 libsdl2-mixer-dev libsdl2-ttf-2.0-0 libsdl2-ttf-dev
+#10 4.773   libselinux1-dev libsensors-config libsensors5 libsepol-dev libsframe1
+#10 4.773   libsharpyuv-dev libsharpyuv0 libsm-dev libsm6 libsndfile1 libsndio-dev
+#10 4.773   libsndio7.0 libsqlite3-dev libssh2-1-dev libssh2-1t64 libssl-dev
+#10 4.773   libstdc++-14-dev libsyn123-0t64 libsysprof-capture-4-dev libsystemd-dev
+#10 4.773   libtasn1-6 libtasn1-6-dev libtiff-dev libtiff6 libtiffxx6 libtsan2 libubsan1
+#10 4.773   libudev-dev libunbound8 libunistring5 libvorbis-dev libvorbis0a
+#10 4.773   libvorbisenc2 libvorbisfile3 libvulkan1 libwayland-bin libwayland-client0
+#10 4.773   libwayland-cursor0 libwayland-dev libwayland-egl1 libwayland-server0
+#10 4.773   libwebp-dev libwebp7 libwebpdecoder3 libwebpdemux2 libwebpmux3 libx11-6
+#10 4.773   libx11-data libx11-dev libx11-xcb1 libxau-dev libxau6 libxcb-dri3-0
+#10 4.773   libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-render0 libxcb-shm0
+#10 4.773   libxcb-sync1 libxcb-xfixes0 libxcb1 libxcb1-dev libxcursor-dev libxcursor1
+#10 4.773   libxdmcp-dev libxdmcp6 libxext-dev libxext6 libxfixes-dev libxfixes3
+#10 4.773   libxi-dev libxi6 libxinerama-dev libxinerama1 libxkbcommon-dev libxkbcommon0
+#10 4.773   libxml2 libxmp-dev libxmp4 libxrandr-dev libxrandr2 libxrender-dev
+#10 4.774   libxrender1 libxshmfence1 libxss-dev libxss1 libxt-dev libxt6t64 libxv-dev
+#10 4.774   libxv1 libxxf86vm-dev libxxf86vm1 libz3-4 libzstd-dev linux-libc-dev make
+#10 4.774   media-types mesa-libgallium native-architecture nettle-dev patch perl
+#10 4.774   perl-modules-5.40 pkgconf pkgconf-bin proj-data python3 python3-minimal
+#10 4.774   python3-packaging python3.13 python3.13-minimal rpcsvc-proto sgml-base
+#10 4.774   uuid-dev x11-common x11proto-dev xkb-data xml-core xorg-sgml-doctools
+#10 4.774   xtrans-dev xz-utils zlib1g-dev
+#10 4.916 0 upgraded, 339 newly installed, 0 to remove and 0 not upgraded.
+#10 4.916 Need to get 227 MB of archives.
+#10 4.916 After this operation, 914 MB of additional disk space will be used.
+#10 4.916 Get:1 http://deb.debian.org/debian trixie/main amd64 libexpat1 amd64 2.7.1-2 [108 kB]
+#10 8.065 Get:2 http://deb.debian.org/debian trixie/main amd64 libpython3.13-minimal amd64 3.13.5-2 [862 kB]
+#10 8.510 Get:3 http://deb.debian.org/debian trixie/main amd64 python3.13-minimal amd64 3.13.5-2 [2224 kB]
+#10 8.796 Get:4 http://deb.debian.org/debian trixie/main amd64 python3-minimal amd64 3.13.5-1 [27.2 kB]
+#10 8.906 Get:5 http://deb.debian.org/debian trixie/main amd64 media-types all 13.0.0 [29.3 kB]

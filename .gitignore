@@ -43,3 +43,7 @@ WareHouse/
 docker-compose.override.yml
 .env
 .env
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
